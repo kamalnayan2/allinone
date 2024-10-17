@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+}
+.service{
+    border: 2px solid black;
+    height: 25vh;
+    width: 18vw;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(91, 196, 245);
+    margin:10px;
+    padding: 10px;
+    font-size: large;
+}
+a:hover{
+    background-color:rgb(37, 255, 3);
+}
+
+.link::before{
+    white-space: pre;
+    content: "\A"; 
+}
+a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+img{
+    height: 60px;
+    width: 75px;
+    display: inline-flex;
+}
